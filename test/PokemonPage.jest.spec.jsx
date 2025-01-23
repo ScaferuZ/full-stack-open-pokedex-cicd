@@ -127,8 +127,6 @@ describe('<PokemonPage />', () => {
         </MemoryRouter>,
       )
     })
-
     expect(screen.queryByText('Previous')).toBeNull()
     expect(screen.queryByText('Next')).toBeNull()
-  })  
-})
+  })})
